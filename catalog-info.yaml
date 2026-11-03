@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+
+metadata:
+  name: customer-api
+  description: Customer Management REST API
+  tags:
+    - spring-boot
+    - rest
+    - customer
+
+spec:
+  type: openapi
+  lifecycle: production
+  owner: guests
+  definition:
+    $text: http://localhost:8080/v3/api-docs

@@ -1,0 +1,14 @@
+
+### 1. Test plain text
+GET http://localhost:8080/api/hello
+
+### 2. Test JSON serialization
+GET http://localhost:8080/api/greeting
+Accept: application/json
+
+### 3. Test global exception handling
+GET http://localhost:8080/api/demo-error
+Accept: application/json
+
+### 4. Test a protected route
+GET http://localhost:8080/api/private

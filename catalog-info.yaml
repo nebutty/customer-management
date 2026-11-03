@@ -14,4 +14,4 @@ spec:
   lifecycle: production
   owner: guests
   definition:
-    $text: http://localhost:8080/v3/api-docs
+    $text: ./openapi.json
